@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+		<meta charset="utf-8">
+		<title><%=title%></title>
+		<meta name="generator" content="Bootply" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+		<link href="css/bootstrap.min.css" rel="stylesheet">
+		<link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.min.css" rel="stylesheet">
+	
+		<link href="css/styles.css" rel="stylesheet">
+	</head>
+	<body>
+    
+<header class="navbar navbar-bright navbar-fixed-top" role="banner">
+  <div class="container">
+    <div class="navbar-header">
+      <button class="navbar-toggle" type="button" data-toggle="collapse" data-target=".navbar-collapse">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      
+    </div>
+    <nav class="collapse navbar-collapse" role="navigation" >
+      <ul class="nav navbar-nav">
+        
+        <h1 style="font-size: 60px;">Library Application</h1>
+      </ul>
+      <ul class="nav navbar-right navbar-nav">
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="glyphicon glyphicon-search"></i></a>
+          <ul class="dropdown-menu" style="padding:12px;">
+            <form class="form-inline">
+              <button type="submit" class="btn btn-default pull-right"><i class="glyphicon glyphicon-search"></i></button><input type="text" class="form-control pull-left" placeholder="Search">
+            </form>
+          </ul>
+        </li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+
+<div class="container"   id="footer">
+  <div class="row">
+    <div >
+      
+      
+      <div style="margin-left: 4%;" class="btn-group">
+        <h3 style="color: white;font-size: 80px;font-size: 35px;margin-top: 8%;margin-bottom: 3%;">Welcome To Library Application</h3><br>
+      
+        <%for(i=0;i<links.length;i++){%>
+      <a  style="margin-right: 20px; height: 50px;width: 100px;border: 1px solid rgb(64, 53, 165) ;text-align: center;border-radius: 2em;" class="btn btn-primary btn-lg" href="<%=links[i].link%>"><i class=" icon-large"></i> <%=links[i].name%></a>
+      <%}%>
+      <div>
+        <p style="color: white;font-size: 80px;font-size: 35px;margin-top: 8%;margin-bottom: 3%;"> A book is a gift you can open again and again. —Garrison Keillor</p>
+      </div>
+  </div>
+ 
+      <br><br>
+    </div>
+  </div>
+</div>
+
+<footer  id="ftcolor" style="margin-top: 70%;">
+  <div class="container" >
+    <div class="row">
+      <div class="col-sm-6">
+        <ul class="list-inline">
+          <li><i class="icon-facebook icon-2x"></i></li>
+          <li><i class="icon-twitter icon-2x"></i></li>
+          <li><i class="icon-google-plus icon-2x"></i></li>
+          <li><i class="icon-pinterest icon-2x"></i></li>
+        </ul>
+        
+      </div>
+      
+    </div>
+  </div>
+</footer>
+
+		<script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.2/jquery.min.js"></script>
+		<script src="js/bootstrap.min.js"></script>
+	</body>
+</html>

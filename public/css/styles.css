@@ -1,0 +1,258 @@
+
+
+body {
+  padding-top:50px;
+  color:#646464;
+  background-image: url("/images/home.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+footer {
+
+  margin-top:50%;
+  padding-top:20px;
+  padding-bottom:10px;
+  background-color:#1b0d66;
+ 
+} 
+
+.navbar-form input, .form-inline input {
+  width:auto;
+}
+
+.atag{
+  margin-right: 10px;
+  height: 200px;
+  width: 200px;
+}
+.atagh{
+  margin-right: 20px;
+  height: 300px;
+  width: 400px;
+  text-align: center;
+  font-size: large;
+}
+#atag:hover{
+  border: 3px solid rgb(255, 255, 255);
+}
+h1,h2,h3,.highlight,.navbar a,#masthead h4 {
+  font-family:'Oswald',arial narrow,sans-serif;
+}
+
+
+#log{
+  margin-top: 15%; 
+  margin-left: 25%;
+  border: 1px solid rgb(69, 52, 167);
+  text-align: center;
+   margin-left: 10%;
+   margin-right: 70%;
+   height: 420px;
+   width: 500px;
+   background-color: #2d2e3686;
+   padding-top: 1%;
+   border-radius: 2rem;
+  
+}
+#addform{
+  margin-top: 4%;
+   margin-left: 23%;
+   margin-right: 32%;
+   border: 2px solid black;
+   background-color: rgba(13, 13, 14, 0.692);
+   padding: 2%;
+   padding-bottom: 4%;
+   padding-top: 3%;
+   text-align: center;
+  
+}
+label{
+  color: white;
+  margin-left: 15%;
+}
+#logbut{
+  border: none;
+  font-weight: bold;
+  width: 22.5rem;
+  background-image: linear-gradient(90deg, rgb(209, 51, 230), rgb(106, 33, 223), rgb(9, 204, 204));
+  border-radius: 2rem;
+  height: 2.5rem;
+  color: whitesmoke;
+}
+#logbut:hover{
+  
+ border: 2px solid  #f8f8f8;
+ background-color:#2f21aaab ;
+  color: white;
+}
+
+#sign{
+  margin-top: 7%; 
+  border: 2px solid white;
+  text-align: center;
+   margin-left: 30%;
+   margin-right: 30%;
+   height: 600px;
+   background-color: #33343a86;
+   padding-top: 1%;
+   border-radius: 2rem;
+
+  
+}
+
+
+#masthead {
+  min-height:150px;
+  background-color:#000044;
+  color:#aaaacc;
+}
+
+#masthead h1 {
+  font-size: 55px;
+  line-height: 1;
+  color:#fefeff;
+  margin-top:50px;
+}
+
+#masthead .well {
+  margin-top:31px;
+  background-color:#111166;
+  border-color:#000022;
+  color:#efefff;
+  min-height:127px;
+}
+
+#topPanel {
+  padding-top:0px;
+  padding-left:22px;
+  padding-right:22px;
+}
+#topPanel .panel-body {
+  padding-top:0px;
+}
+
+.navbar.affix {
+  position:fixed;
+  top:0;
+  width:100%;
+}
+input{
+  border-radius: 2rem;
+  height: 40px;
+  width: 240px;
+}
+
+.top-spacer {
+  background-color:#ffffff;
+  height:40px;
+}
+
+
+a,a:hover {
+  color:#27313b;
+  text-decoration:none;
+}
+
+.icon-bar {
+  background-color:#fff;
+}
+button{
+  border: none;
+  font-weight: bold;
+  width: 22.5rem;
+  background-image: linear-gradient(90deg, rgb(209, 51, 230), rgb(106, 33, 223), rgb(9, 204, 204));
+  border-radius: 2rem;
+  height: 2.5rem;
+  color: whitesmoke;
+}
+button:hover {
+  transition: ease-in 0.5s;
+  border: 4px solid blueviolet;
+}
+
+
+.navbar-bright {
+  background-color:#111166;
+  color:#fff;
+  margin-bottom: 0;
+  border-width: 0;
+}
+
+.navbar-bright a, .navbar-bright .navbar-brand, #masthead h4 {
+  color:#ccccdd;
+  font-size:14px;
+  text-transform: uppercase;
+  letter-spacing:.08em;
+}
+
+.navbar-bright li > a:hover {
+  background-color:#000044;
+}
+
+.dropdown-menu {
+  min-width: 250px;
+}
+
+.caret {
+  color:#fff;
+}
+
+.navbar-toggle {
+  color:#fff;
+  border-width:0;
+}
+
+.navbar-toggle:hover {
+  background-color:#fff;
+}
+
+.panel {
+  border-color:transparent;
+  border-radius:0;
+}
+
+.thumbnail {
+  margin-bottom:8px;
+}
+
+.img-container {
+  overflow:hidden;
+  height:170px;
+}
+
+.img-container img {
+  min-width:280px;
+  min-height:180px;
+  max-width:380px;
+  max-height:280px;
+}
+
+.txt-container {
+  overflow:hidden;
+  height:100px;
+}
+
+.panel .lead {
+  overflow:hidden;
+  height:90px;
+}
+
+.label-float{
+  margin:0 auto;
+  position: absolute;
+  top: 0;
+  z-index: 1;
+  width:100%;
+  opacity:.9;
+  padding:6px;
+  color:#fff;
+}
+    
+.btn-twitter {background-color:#4099FF;color:#fff;}
+.btn-facebook {background-color:#3B5998;color:#fff;}
+.btn-google-plus {background-color:#d34836;color:#fff;}
+
+.btn-twitter:hover {background-color:#3088FF;color:#62BBFF;}
+.btn-facebook:hover {background-color:#2A4998;color:#4C6BBA;}
+.btn-google-plus:hover {background-color:#C23836;color:#E45A58;}
